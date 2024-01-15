@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+}
+
+#logo {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+#content {
+    color: white;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#loading h1 {
+    color:rgb(214, 214, 214);
+    margin-bottom: 5%;
+
+}
+
+
+#loading {
+    margin: 50px;
+}
+
+.dot1 {
+    animation: loadingDot1 2s infinite;
+}
+
+.dot2 {
+    color: transparent;
+    animation: loadingDot2 2s infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes loadingDot1 {
+    0% {
+        color: transparent;
+    }
+    50% {
+        color: white
+    }
+    100% {
+        color: transparent;
+    }
+
+}
+
+@keyframes loadingDot2 {
+    0% {
+        color: transparent;
+    }
+    40% {
+        color: white
+    }
+    55% {
+        color: transparent;
+    }
+
+}
+
+#meantime {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#text {
+    font-size: 20px;
+    font-style: normal;
+}
+
+#insta {
+    display: flex;
+    justify-content: center;
+}
+
+#date {
+    display: flex;
+    justify-content: right;
+    margin-right: 37%;
+    font-size: 15px;
+}
